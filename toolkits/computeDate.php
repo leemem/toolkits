@@ -56,7 +56,7 @@
 			}
 		</script>
 	</head>
-	<body style="margin: 0px; overflow: hidden;line-height:30px;padding-left:30">
+	<body style="margin: 0px; overflow: hidden;line-height:30px;padding-left:30px;">
 		<h3>推算几天后的日期：</h3>
 		<span>和</span> <input id="SY" value="<?php echo date("Y");?>"/> 年 <input id="SM" value="<?php echo date("m");?>"/> 月 <input id="SD" value="<?php echo date("d");?>"/> 日  （默认为今天） <br />
 		<span>相差</span> <input id="decday" value="100" /> 天的日期 (输入负数则往前计算) <br />
