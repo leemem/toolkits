@@ -7,7 +7,7 @@
 		<h3>我的工具集</h3>
 		<ul>
 			<li><a href="/toolkits/computeDate.php">计算日期</a></li>
-			<li><a href="/toolkits/qrcode/qrcodeGenerate.php">计算日期</a></li>
+			<li><a href="/toolkits/qrcode/qrcodeGenerate.php">二维码生成</a></li>
 		</ul>
 	</body>
 </html>

@@ -1,5 +1,5 @@
 <?php 
-reqire "../../vender/phparcode/qrlib.php";
+require "../../vender/phparcode/qrlib.php";
 $hasfile = false;
 if(!empty($_POST)){
 	$content = isset($_POST["content"])?$_POST["content"]:"";
