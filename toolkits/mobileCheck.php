@@ -1,5 +1,6 @@
 <?php
 require "../vender/Medoo/Medoo.php";
+use Medoo\Medoo;
 
 $mobileinfo = null;
 $ispost = false;
