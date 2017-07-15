@@ -10,7 +10,7 @@ if(!empty($_POST)){
 	$database = new medoo([
 	    'database_type' => 'mysql',
 	    'database_name' => 'mobilecore',
-	    'server' => 'localhost',
+	    'server' => '192.168.0.5',
 	    'username' => 'mobile',
 	    'password' => 'mObile2017',
 	    'charset' => 'utf8'
