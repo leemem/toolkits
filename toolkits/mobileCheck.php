@@ -18,7 +18,7 @@ if(!empty($_POST)){
 	]);
 
 	$mobile_prefix = substr($mobile,0,7);
-	$mobileinfo = $database->select("vest",[
+	$mobileinfo = $database->select("vest","*",[
 		"mobile" => $mobile_prefix
 	]);
 }
