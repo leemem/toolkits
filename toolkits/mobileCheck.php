@@ -31,7 +31,7 @@ if(!empty($_POST)){
 	</head>
 	<body style="margin: 0px; overflow: hidden;">
 		<div style="margin:0 auto;width:960px;">
-			<div style="padding:300px;margin-bottom:30px;text-align:center;">
+			<div style="padding-top:200px;margin-bottom:30px;text-align:center;">
 				<form action="/toolkits/mobileCheck.php" method="post">
 					<span>请输入手机号码</span> <input name="mobile"/> <button type="submit">查询</button>					
 				</form>
