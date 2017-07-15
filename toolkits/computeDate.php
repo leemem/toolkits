@@ -59,7 +59,7 @@
 	<body style="margin: 0px; overflow: hidden;line-height:30px;pading-left:30">
 		<h3>推算几天后的日期：</h3>
 		<span>和</span> <input id="SY" value="<?php echo date("Y");?>"/> 年 <input id="SM" value="<?php echo date("m");?>"/> 月 <input id="SD" value="<?php echo date("d");?>"/> 日  （默认为今天） <br />
-		<span>相差</span> <input id="decday" /> 天的日期 (输入负数则往前计算) <br />
+		<span>相差</span> <input id="decday" value="100" /> 天的日期 (输入负数则往前计算) <br />
 		是： <span id="result1"></span><br />
 		<button onclick="cala()">计算</button> <br /><br />
 		<h3>计算日期差：</h3>
