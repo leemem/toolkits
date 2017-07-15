@@ -17,8 +17,8 @@ if(!empty($_POST)){
 	    'charset' => 'utf8'
 	]);
 
-	$mobileinfo = $mobile_prefix = substr($mobile,0,7);
-	$database->select("vest",[
+	$mobile_prefix = substr($mobile,0,7);
+	$mobileinfo = $database->select("vest",[
 		"mobile" => $mobile_prefix
 	]);
 }
