@@ -44,8 +44,8 @@ if(!empty($_POST)){
 
 					if($mobileinfo){
 						echo '<font style="color:green;">查询结果：</font><br />';
-						print_r($mobileinfo);
-						echo '<font style="color:green;">手机号码：'.$mobile.' 归属地： '.$mobileinfo->province.' '.$mobileinfo->city.' 运营商： '.$mobileinfo->service.' 区号：'.$mobileinfo->areacode.' 邮编：'.$mobileinfo->postcode.'</font>';
+						//print_r($mobileinfo);
+						echo '<font style="color:green;">手机号码：'.$mobile.' 归属地： '.$mobileinfo["province"].' '.$mobileinfo["city"].' 运营商： '.$mobileinfo["service"].' 区号：'.$mobileinfo["areacode"].' 邮编：'.$mobileinfo["postcode"].'</font>';
 					}
 				?>
 			</div>
