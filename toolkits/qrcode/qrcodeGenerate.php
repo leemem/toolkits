@@ -25,7 +25,7 @@ if(!empty($_POST)){
 	</head>
 	<body style="margin: 0px; overflow: hidden;">
 		<div class="container">
-			<form action="/toolkits/qrcode/qrcodeGenerage.php" method="post">
+			<form action="/toolkits/qrcode/qrcodeGenerate.php" method="post">
 				<div>提交你要转换为二维码的内容</div>
 				<textarea style="width:100%;height:100px;" name="content"></textarea> <br /> <br />
 				<button type="submit">提交</button>
