@@ -7,7 +7,7 @@ $mobile = "";
 if(!empty($_POST)){
 	$ispost = true;
 	$mobile = isset($_POST["mobile"])?$_POST["mobile"]:"";
-	$database = new medoo([
+	$database = new Medoo([
 	    'database_type' => 'mysql',
 	    'database_name' => 'mobilecore',
 	    'server' => '192.168.0.5',
