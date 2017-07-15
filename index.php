@@ -8,6 +8,7 @@
 		<ul>
 			<li><a href="/toolkits/computeDate.php">计算日期</a></li>
 			<li><a href="/toolkits/qrcode/qrcodeGenerate.php">二维码生成</a></li>
+			<li><a href="/toolkits/mobileCheck.php">查询手机号码归属地</a></li>
 		</ul>
 	</body>
 </html>
