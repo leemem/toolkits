@@ -3,6 +3,12 @@
 <html>
 	<head>
 		<title>日期计算器</title>
+		<style type="text/css">
+			input{
+				width:30px;
+			}
+
+		</style>
 		<script
 		  src="https://code.jquery.com/jquery-3.2.1.js"
 		  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
@@ -50,16 +56,16 @@
 			}
 		</script>
 	</head>
-	<body style="margin: 0px; overflow: hidden;">
+	<body style="margin: 0px; overflow: hidden;line-height:30px;">
 		<h3>推算几天后的日期：</h3>
 		<span>和</span><input id="SY" value="<?php echo date("Y");?>"/>年<input id="SM" value="<?php echo date("m");?>"/>月<input id="SD" value="<?php echo date("d");?>"/>日  （默认为今天） <br />
-		<span>相差</span><input id="decday" />天的日期 (输入负数则往前计算)
+		<span>相差</span><input id="decday" />天的日期 (输入负数则往前计算) <br />
 		是： <span id="result1"></span><br />
-		<button click="cala()">计算</button> <br /><br />
+		<button onclick="cala()">计算</button> <br /><br />
 		<h3>计算日期差：</h3>
 		<span style="display:inline-block;width:30px;"></span><input id="SY2" value="<?php echo date("Y");?>"/>年<input id="SM2"  value="<?php echo date("m");?>"/>月<input id="SD2"  value="<?php echo date("d");?>"/>日  （默认为今天） <br />
 		<span style="display:inline-block;width:30px;">到</span><input id="SY3" value="<?php echo date("Y");?>"/>年<input id="SM3"  value="<?php echo date("m");?>"/>月<input id="SD3"  value="<?php echo date("d");?>"/>日  （默认为今天） <br />
 		相差:<span id="result2"></span> 天 <br />
-		<button click="calb()">计算</button> <br /><br />
+		<button onclick="calb()">计算</button> <br /><br />
 	</body>
 </html>
