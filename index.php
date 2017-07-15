@@ -5,7 +5,7 @@
 	</head>
 	<body style="margin: 0px; overflow: hidden;">
 		<ul>
-			<li><a href="/demos/computeDate.php">计算日期</a></li>
+			<li><a href="/toolkits/computeDate.php">计算日期</a></li>
 		</ul>
 	</body>
 </html>
